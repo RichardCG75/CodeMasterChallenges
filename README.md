@@ -59,3 +59,8 @@ make
 ./RunTests
 ```
 
+### To check the solution of a challenge
+1. Change to the git branch `solutions`.
+2. Navigate to the challenge folder.
+3. Choose your favorite programming language (e.g. cpp, java, python, etc.) and navigate to its folder.
+4. Read the `solution` file to check the solution.
