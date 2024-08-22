@@ -6,7 +6,7 @@ using std::vector;
 class Solution
 {
     public:
-        vector<int> inorderTraversal(TreeNode *root);
+        bool isSameTree(TreeNode *p, TreeNode *q);
 };
 
 
