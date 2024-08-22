@@ -112,11 +112,9 @@ TEST(SameTree, Example5)
 TEST(SameTree, Example6)
 {
     Solution s;
-    TreeNode *p;
-    TreeNode *q;
+    TreeNode *p = nullptr;
+    TreeNode *q = nullptr;
     EXPECT_EQ(s.isSameTree(p, q), true);
-
-    // free memory
 }
 
 // Empty trees

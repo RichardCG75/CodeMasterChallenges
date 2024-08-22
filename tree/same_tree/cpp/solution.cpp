@@ -4,7 +4,8 @@ using std::vector;
 
 bool Solution::isSameTree(TreeNode *p, TreeNode *q)
 {
-    /* CODE YOUR SOLUTION HERE */
-    return false; // RETURN YOUR RESULT HERE
+    if (p == nullptr && q == nullptr) return true;
+    if (p == nullptr || q == nullptr) return false;
+    return isSameTree(p->left, q->left) && isSameTree(p->right, q->right) && p->val == q->val; 
 }
 
